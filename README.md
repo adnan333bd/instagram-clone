@@ -1,4 +1,4 @@
-- 49 mins, context udemy section upto 10
+- 1:40 mins
 
 - https://www.youtube.com/watch?v=mDgEqoQUBgk
 - https://github.com/karlhadwen/instagram
@@ -13,3 +13,8 @@ service cloud.firestore {
     }
   }
 }*/
+
+ESLint extention
+tailwind extension
+
+yarn add tailwindcss, prop-types, postcss-cli
