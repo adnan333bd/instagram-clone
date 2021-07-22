@@ -14,6 +14,4 @@ const config = {
 const firebase = Firebase.initializeApp(config);
 const { FieldValue } = Firebase.firestore;
 
-console.log(firebase);
-
 export { firebase, FieldValue };
