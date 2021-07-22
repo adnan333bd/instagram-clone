@@ -1,4 +1,4 @@
-- 1:40 mins
+- 2:05 mins Tailwind config
 
 - https://www.youtube.com/watch?v=mDgEqoQUBgk
 - https://github.com/karlhadwen/instagram
