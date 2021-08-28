@@ -12,7 +12,7 @@ export default function Login() {
   const [error, setError] = useState('');
   const isInvalid = password === '' || emailAddress === '';
 
-  const handleLogin = () => {};
+  const handleLogin = () => { };
 
   useEffect(() => {
     document.title = 'Login - Instagram';
@@ -38,7 +38,7 @@ export default function Login() {
               aria-label="Enter your email address"
               type="text"
               placeholder="Email address"
-              className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 
+              className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2
               border border-gray-primary rounded mb-2"
               onChange={({ target }) => setEmailAddress(target.value)}
               value={emailAddress}
@@ -47,7 +47,7 @@ export default function Login() {
               aria-label="Enter your password"
               type="password"
               placeholder="Password"
-              className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2 
+              className="text-sm text-gray-base w-full mr-3 py-5 px-4 h-2
               border border-gray-primary rounded mb-2"
               onChange={({ target }) => setPassword(target.value)}
               value={password}
@@ -55,7 +55,7 @@ export default function Login() {
             <button
               disabled={isInvalid}
               type="submit"
-              className={`bg-blue-medium text-white w-full 
+              className={`bg-blue-medium text-white w-full
                           rounded h-8 ${isInvalid && `opacity-50`}`}
             >
               Log In
@@ -63,7 +63,7 @@ export default function Login() {
           </form>
         </div>
         <div
-          className="flex justify-center items-center 
+          className="flex justify-center items-center
                         flex-col w-full bg-white p-4 border border-gray-primary"
         >
           <p className="text-sm">
