@@ -19,20 +19,31 @@ tailwind extension
 yarn add date-fns, firebase, react-loading-skeleton
 yarn add tailwindcss, prop-types, postcss, postcss-cli
 
-/_
-"eslintConfig": {
-"extends": [
-"react-app",
-"react-app/jest"
-]
-}, _/
-
 # Links
 
 ## learning the web
 
 https://developer.mozilla.org/en-US/docs/Web#documentation_for_web_developers
 
-## frontend interview question practice
+## Create React App: ESLint
 
-- https://en.wikiversity.org/wiki/Web_Design/JavaScript_Challenges
+- https://create-react-app.dev/docs/setting-up-your-editor/
+
+# clone deep
+
+npm i --save lodash.clonedeep
+var cloneDeep = require('lodash.clonedeep');
+var objects = [{ 'a': 1 }, { 'b': 2 }];
+
+var deep = \_.cloneDeep(objects);
+console.log(deep[0] === objects[0]);
+// => false
+
+# optimizing performance
+
+https://reactjs.org/docs/optimizing-performance.html#examples
+
+## Prettier Eslint
+
+Traversy Media
+https://www.youtube.com/watch?v=SydnKbGc7W8
